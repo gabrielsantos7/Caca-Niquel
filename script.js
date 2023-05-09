@@ -6,7 +6,7 @@ let imgEsq = document.getElementById("imgEsq"); // ? imagem do slot 1
 let imgMeio = document.getElementById("imgMeio"); // ? imagem do slot 2
 let imgDir = document.getElementById("imgDir"); // ? imagem do slot 1
 
-let coins = 1000; 
+let coins = 200; 
 let aposta = 100;
 
 function sortear() {
@@ -170,9 +170,12 @@ function perdeu() {
   let janela = confirm(
     "Fim de Jogo! Você não possui mais moedas para apostar! \n\nDeseja reiniciar?"
   );
-  if (janela == 1) {
+  if (janela) {
     location.reload();
+  } else {
+    window.location.href = "index.html";
   }
+
 }
 
 function playAudio() {
@@ -190,6 +193,7 @@ function rodar() {
 
   if (coins <= 0) {
     perdeu();
+  
   } else if(coins > 2000){
     aposta = Math.floor(coins / 1000) * 100
   }else{
