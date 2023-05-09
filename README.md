@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Caça-Níquel Online 🎰
 
 Bem-vindo ao Caça-Níquel Online! Nosso site que permite aos jogadores desfrutar da emoção de jogar em um caça-níquel virtual. Aqui você encontrará um game intuitivo e divertido, com interface responsiva (funciona corretamente em todos dispositivos) e com efeitos sonoros emocionantes. Sinta-se à vontade para explorar e aproveitar ao máximo a sua experiência de jogo!
@@ -68,3 +69,6 @@ O Caça-Níquel Online é um projeto de código aberto sob a Licença MIT. Sinta
 Se você tiver alguma dúvida, sugestão ou problema técnico, entre em contato com a nossa equipe de suporte pelo e-mail [gabrielss432112@gmail.com](mailto:gabrielss432112@gmail.com). Estamos aqui para ajudar!
 
 Divirta-se jogando no Caça-Níquel Online! 🎉
+=======
+# Caca-Niquel
+>>>>>>> 0171b5c050f2bf6ce940c6da85720f4a2397f4a1
