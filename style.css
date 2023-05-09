@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+
+* {
+  /*  * Para o usuário não conseguir copiar o texto dos botões*/
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-image: url(Imagens/wallpaper.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+}
+
+header {
+  color: goldenrod;
+  text-align: center;
+  margin: -30px;
+  padding: 10px;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px rgb(22, 22, 22);
+  margin-top: 5px;
+}
+
+#qtdMoedas {
+  color: rgb(22, 22, 22);
+  padding-left: 15px;
+}
+
+#coins {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+
+.txtGirar {
+  padding: 10px;
+  background-color: goldenrod;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 700;
+}
+
+#itens {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+#imgMeio {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  height: 425px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+a {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+#btnGirar {
+  cursor: pointer;
+}
+
+#btnGirar:hover {
+  background-color: gold;
+}
+
+#btnRodando {
+  cursor: not-allowed;
+  background-color: goldenrod;
+}
