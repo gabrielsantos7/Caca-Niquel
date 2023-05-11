@@ -6,7 +6,7 @@ let imgEsq = document.getElementById("imgEsq"); // ? imagem do slot 1
 let imgMeio = document.getElementById("imgMeio"); // ? imagem do slot 2
 let imgDir = document.getElementById("imgDir"); // ? imagem do slot 1
 
-let coins = 200; 
+let coins = 1000; 
 let aposta = 100;
 
 function sortear() {
