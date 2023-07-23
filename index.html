@@ -1,48 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="website icon" type="png" href="Imagens/main/icon.png">
+    <link rel="website icon" type="png" href="Imagens/main/icon.png" />
     <title>Caça-Níquel</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Caça - níquel</h1> 
+      <h1>Caça - níquel</h1>
     </header>
 
     <section id="principal">
-        <div id="coins">
-            <img src="Imagens/main/coins.png" height="75px" alt="coins" id="imgMoedas"> 
-            <h2 id="qtdMoedas">1000</h2>
-        </div>
+      <div id="coins">
+        <img
+          src="Imagens/main/coins.png"
+          height="75px"
+          alt="coins"
+          id="imgMoedas"
+        />
+        <h2 id="qtdMoedas">1000</h2>
+      </div>
 
-        <div>
-            <p class="txtGirar" id="txtsup">Gire a roleta para jogar!</p>
-        </div>
+      <div id="divSup">
+        <p class="txtGirar" id="txtsup">Gire a roleta para jogar!</p>
+      </div>
 
-        <div id="itens">
-            <img src="Imagens/fruits/cherry.png" alt="cereja" height="125px" class="imagem" id="imgEsq">
-            <img src="Imagens/fruits/cherry.png" alt="cereja" height="125px" class="imagem" id="imgMeio">
-            <img src="Imagens/fruits/cherry.png" alt="cereja" height="125px" class="imagem" id="imgDir">
-        </div>
+      <div id="itens">
+        <img
+          src="Imagens/fruits/cherry.png"
+          alt="cereja"
+          height="125px"
+          class="imagem"
+          id="imgEsq"
+        />
+        <img
+          src="Imagens/fruits/cherry.png"
+          alt="cereja"
+          height="125px"
+          class="imagem"
+          id="imgMeio"
+        />
+        <img
+          src="Imagens/fruits/cherry.png"
+          alt="cereja"
+          height="125px"
+          class="imagem"
+          id="imgDir"
+        />
+      </div>
 
-            <div id="girar">
-            <audio id="audio" src="Audios/audioRoleta.mp3"></audio>
-            <audio id="audioWin" src="Audios/AudioWin.mp3"></audio>
-            <p class="txtGirar" id="btnGirar">Girar</p>
-        </div>
+      <div id="girar">
+        <audio id="audio" src="Audios/audioRoleta.mp3"></audio>
+        <audio id="audioWin" src="Audios/AudioWin.mp3"></audio>
+        <p class="txtGirar" id="btnGirar">Girar</p>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; <a href="https://github.com/gabrielsantos7" target="_blank">Gabriel Santos</a></p>
+      <p>
+        &copy;
+        <a href="https://github.com/gabrielsantos7" target="_blank"
+          >Gabriel Santos</a
+        >
+      </p>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
 
-* {
-  /*  * Para o usuário não conseguir copiar o texto dos botões*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -21,26 +26,25 @@ body {
 header {
   color: goldenrod;
   text-align: center;
-  margin: -30px;
+  margin: 10px;
   padding: 10px;
 }
 
 h1 {
   text-shadow: 2px 2px 2px rgb(22, 22, 22);
-  margin-top: 5px;
 }
 
 #qtdMoedas {
   color: rgb(22, 22, 22);
-  padding-left: 15px;
+  padding: 15px;
 }
 
 #coins {
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: -50px;
 }
 
 .txtGirar {
@@ -48,29 +52,34 @@ h1 {
   background-color: goldenrod;
   border-radius: 10px;
   text-align: center;
-  margin-left: 25px;
-  margin-right: 25px;
+  /*margin-left: 25px;
+  margin-right: 25px;*/
   font-weight: 700;
 }
 
 #itens {
   display: flex;
-  justify-content: space-between;
-  margin: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  
 }
 
-#imgMeio {
-  padding-left: 20px;
-  padding-right: 20px;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+#itens img {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 15vh;
+  width: 33vw; /* Defina a altura desejada em porcentagem da viewport height */
+  max-height: 125px;
+  max-width: 135px; /* Altura máxima de 125 pixels */
+  flex: 1; /* Ocupa o espaço disponível horizontalmente */
 }
 
 section {
-  background: white;
+  background: rgb(240, 240, 240);
   border-radius: 10px;
   padding: 15px;
-  width: 500px;
+  max-width: 500px;
   height: 425px;
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
@@ -78,6 +87,7 @@ section {
 }
 
 footer {
+  margin-top: 1rem;
   color: white;
   text-align: center;
   font-size: 20px;
